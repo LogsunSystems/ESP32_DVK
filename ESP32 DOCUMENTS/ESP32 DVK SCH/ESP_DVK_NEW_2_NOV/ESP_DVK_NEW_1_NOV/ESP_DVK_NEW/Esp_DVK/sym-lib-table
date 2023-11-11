@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Esp_DVK-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Esp_DVK-eagle-import.kicad_sym")(options "")(descr ""))
+)

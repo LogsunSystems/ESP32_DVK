@@ -1,0 +1,91 @@
+(footprint "SOT95P280X135-3N" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at -1.096 -1.7675) (layer "F.SilkS")
+      (effects (font (size 1.143 1.143) (thickness 0.127)) (justify left bottom))
+    (tstamp a8d258b5-5510-40dd-83eb-1b7059f66234)
+  )
+  (fp_text value "SOT95P280X135-3N" (at -1.096 3.0375) (layer "F.Fab")
+      (effects (font (size 1.143 1.143) (thickness 0.127)) (justify left bottom))
+    (tstamp 81592fc3-927d-49c8-b8b7-ba3db6d473f0)
+  )
+  (fp_line (start 0 -1.45) (end 0 1.45)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp b8da66f4-4ec1-4bf8-ad1b-a18a2427fcaa))
+  (fp_circle (center -1.6 -1.779) (end -1.475 -1.779)
+    (stroke (width 0.25) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 1a171166-a739-481d-9e92-705789705e5d))
+  (fp_line (start -2.1 -1.7) (end 2.1 -1.7)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp c8809f2e-9b92-4be0-a4c0-ee07f6eb4397))
+  (fp_line (start -2.1 1.7) (end -2.1 -1.7)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp e66e9a32-cceb-446e-90b2-24bfe1d1ed17))
+  (fp_line (start 2.1 -1.7) (end 2.1 1.7)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 41a84971-eb79-4120-8c36-8bc0bfc998d4))
+  (fp_line (start 2.1 1.7) (end -2.1 1.7)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 28842702-abdc-41ef-8210-34ab0e2432db))
+  (fp_line (start -0.65 -1.45) (end 0.65 -1.45)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 3cc3bf4c-1bc3-4cc3-bf60-040a06913d99))
+  (fp_line (start -0.65 1.45) (end -0.65 -1.45)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp c1de869a-3367-43c2-abad-b843eb432ea6))
+  (fp_line (start 0.65 -1.45) (end 0.65 1.45)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp e3f52b74-9c1d-4f86-b74a-e887a7a1b7b3))
+  (fp_line (start 0.65 1.45) (end -0.65 1.45)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 8fa5490f-1d3f-44bb-9c7a-f371e98e0986))
+  (fp_poly
+    (pts
+      (xy -1.4 -0.71)
+      (xy -0.65 -0.71)
+      (xy -0.65 -1.19)
+      (xy -1.4 -1.19)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp daa4304c-7784-45f0-9691-349bf6e21c89))
+  (fp_poly
+    (pts
+      (xy -1.4 -0.71)
+      (xy -0.65 -0.71)
+      (xy -0.65 -1.19)
+      (xy -1.4 -1.19)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp f160d428-b4fe-484d-9563-d7e11f4adc3b))
+  (fp_poly
+    (pts
+      (xy -1.4 1.19)
+      (xy -0.65 1.19)
+      (xy -0.65 0.71)
+      (xy -1.4 0.71)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 192f2ef3-8754-4760-90b0-f15b0160a32d))
+  (fp_poly
+    (pts
+      (xy -1.4 1.19)
+      (xy -0.65 1.19)
+      (xy -0.65 0.71)
+      (xy -1.4 0.71)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 808f7177-1eef-49ac-99c7-4a27f62f17a2))
+  (fp_poly
+    (pts
+      (xy 0.65 0.24)
+      (xy 1.4 0.24)
+      (xy 1.4 -0.24)
+      (xy 0.65 -0.24)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 1473ce5c-64d8-4511-98a4-39581f7b7b5b))
+  (fp_poly
+    (pts
+      (xy 0.65 0.24)
+      (xy 1.4 0.24)
+      (xy 1.4 -0.24)
+      (xy 0.65 -0.24)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 5df110d6-cf11-4dcd-b7ca-39ed359ad060))
+  (pad "1" smd roundrect (at -1.15 -0.95 90) (size 0.65 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5)
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 83a21c19-bb03-4e01-887d-72c56ec8bdee))
+  (pad "2" smd roundrect (at -1.15 0.95 90) (size 0.65 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5)
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 15b71c49-4592-4ba8-b52a-d452f18cc493))
+  (pad "3" smd roundrect (at 1.15 0 90) (size 0.65 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5)
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp e2e62069-a29b-4f4b-ae5a-0632b21c5903))
+)
