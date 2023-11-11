@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Esp_DVK")(type "KiCad")(uri "$(KIPRJMOD)/Esp_DVK.pretty")(options "")(descr ""))
-)
